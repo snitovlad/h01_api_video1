@@ -38,7 +38,7 @@ const inputValidation = (video: InputVideoType) => {
 
     ) {
         errors.errorsMessages.push({
-            message: 'Error!! Invalid availableResolution',
+            message: 'Error!!',
             field: 'availableResolution'
         })
     }
