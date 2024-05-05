@@ -3,14 +3,14 @@
     "name": "h01_api_video1",
     "builds": [
         {
-            "src": "srs/index.ts",
+            "src": "src/index.ts",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "srs/index.ts"
+            "dest": "src/index.ts"
         }
     ]
 }
