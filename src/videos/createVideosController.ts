@@ -34,12 +34,10 @@ const inputValidation = (video: InputVideoType) => {
     }
     if (video.availableResolutions && (!Array.isArray(video.availableResolutions)
         || video.availableResolutions.find(p => !Resolutions[p]))
-        //|| video.availableResolutions.find(p => Resolutions.indexOf(p) === -1))
-
     ) {
         errors.errorsMessages.push({
             message: 'Error!!',
-            field: 'availableResolution'
+            field: 'availableResolutions'
         })
     }
     return errors
