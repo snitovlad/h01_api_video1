@@ -1,6 +1,7 @@
 import express from 'express'
 import { SETTINGS } from './settings'
 import { videosRouter } from './videos/videosRouter'
+import { testingRouter } from './testing/testingRouter'
 //import cors from 'cors'
 
 
@@ -14,3 +15,4 @@ app.get('/', (req, res) => {
 })
 // app.get(SETTINGS.PATH.VIDEOS, getVideosController)
 app.use(SETTINGS.PATH.VIDEOS, videosRouter)
+app.use(SETTINGS.PATH.TESTING, testingRouter)
