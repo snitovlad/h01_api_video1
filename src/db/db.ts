@@ -4,18 +4,18 @@ export type DBType = { videos: VideoDBType[] }
 
 export const db: DBType = {
     videos: [
-        {
-            "id": 0,
-            "title": "string",
-            "author": "string",
-            "canBeDownloaded": true,
-            "minAgeRestriction": null,
-            "createdAt": "2024-04-28T09:21:17.000Z",
-            "publicationDate": "2024-04-28T09:21:17.000Z",
-            "availableResolutions": [
-                "P144"
-            ]
-        }
+        // {
+        //     "id": 0,
+        //     "title": "string",
+        //     "author": "string",
+        //     "canBeDownloaded": true,
+        //     "minAgeRestriction": null,
+        //     "createdAt": "2024-04-28T09:21:17.000Z",
+        //     "publicationDate": "2024-04-28T09:21:17.000Z",
+        //     "availableResolutions": [
+        //         "P144"
+        //     ]
+        // }
     ]
 }
 
